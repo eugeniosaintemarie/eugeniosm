@@ -6,7 +6,7 @@ export default function Page() {
     <div className="min-h-screen bg-black flex flex-col">
       <main className="flex-1 flex flex-col items-center justify-center">
         <h1 className="text-white text-2xl md:text-4xl font-bold text-center px-4">
-          Qué perdiste
+          ¿Qué perdiste?
         </h1>
         
         <Link
