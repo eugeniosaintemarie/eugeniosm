@@ -1,4 +1,4 @@
-import { Instagram } from "lucide-react"
+import { Instagram, Globe } from "lucide-react"
 import Link from "next/link"
 
 export default function Page() {
@@ -6,9 +6,9 @@ export default function Page() {
     <div className="min-h-screen bg-black flex flex-col">
       <main className="flex-1 flex items-center justify-center">
         <h1 className="text-white text-2xl md:text-4xl font-bold text-center px-4 flex flex-col gap-2">
-          <div>Qué buscas</div>
-          <div>goloso</div>
+          <div>Qué perdiste</div>
         </h1>
+        <br></br>
         <Link
           href="https://www.instagram.com/eugeniosaintemarie"
           target="_blank"
@@ -26,7 +26,7 @@ export default function Page() {
           rel="noopener noreferrer"
           className="text-white hover:text-gray-300 transition-colors"
         >
-          <Instagram className="w-4 h-4" />
+          <Globe className="w-4 h-4" />
           <span className="sr-only">Website</span>
         </Link>
       </footer>
