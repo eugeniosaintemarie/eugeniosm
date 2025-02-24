@@ -9,7 +9,7 @@ export default function Page() {
           <h1 className="text-white text-2xl md:text-4xl font-bold text-center px-4">
             <div>Qué perdiste</div>
           </h1>
-
+          
           <Link
             href="https://www.instagram.com/eugeniosaintemarie"
             target="_blank"
@@ -31,6 +31,8 @@ export default function Page() {
           <span className="sr-only">Website</span>
         </Link>
       </div>
+      <footer className="p-4 flex justify-center">
+      </footer>
     </div>
   )
 }
