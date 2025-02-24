@@ -1,5 +1,4 @@
 import { Instagram } from "lucide-react"
-import { Website } from "lucide-react"
 import Link from "next/link"
 
 export default function Page() {
@@ -27,7 +26,7 @@ export default function Page() {
           rel="noopener noreferrer"
           className="text-white hover:text-gray-300 transition-colors"
         >
-          <Website className="w-4 h-4" />
+          <Instagram className="w-4 h-4" />
           <span className="sr-only">Website</span>
         </Link>
       </footer>
