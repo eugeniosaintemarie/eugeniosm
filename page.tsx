@@ -8,8 +8,8 @@ export default function Page() {
         <h1 className="text-white text-2xl md:text-4xl font-bold text-center px-4 flex flex-col gap-2">
           <div>Qué perdiste</div>
         </h1>
-      </main>
-      <Link
+        <br />
+        <Link
           href="https://www.instagram.com/eugeniosaintemarie"
           target="_blank"
           rel="noopener noreferrer"
@@ -18,6 +18,17 @@ export default function Page() {
           <Instagram className="w-4 h-4" />
           <span className="sr-only">Instagram</span>
         </Link>
+      </main>
+      <div className="p-4 flex justify-center">
+        <Link
+          href="https://www.eugeniosaintemarie.github.io"
+          rel="noopener noreferrer"
+          className="text-white hover:text-gray-300 transition-colors"
+        >
+          <Globe className="w-4 h-4" />
+          <span className="sr-only">Website</span>
+        </Link>
+      </div>
 
       <footer className="p-4 flex justify-center">
         <Link
