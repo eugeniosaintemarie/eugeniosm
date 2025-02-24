@@ -92,3 +92,8 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.footer-icon {
+  position: relative;
+  top: -5px;
+}

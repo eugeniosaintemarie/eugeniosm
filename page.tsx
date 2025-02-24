@@ -1,6 +1,5 @@
 import { Instagram, Globe } from "lucide-react"
 import Link from "next/link"
-import './styles.css'
 
 export default function Page() {
   return (
@@ -26,7 +25,7 @@ export default function Page() {
           href="https://www.eugeniosaintemarie.github.io"
           className="text-white hover:text-gray-300 transition-colors"
         >
-          <Globe className="w-4 h-4 icon-adjust" />
+          <Globe className="w-4 h-4 footer-icon" />
           <span className="sr-only">Website</span>
         </Link>
       </footer>
