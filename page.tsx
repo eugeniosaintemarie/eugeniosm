@@ -22,7 +22,7 @@ export default function Page() {
       
       <footer className="p-4 flex justify-center">
         <Link
-          href="https://www.eugeniosaintemarie.github.io"
+          href="https://eugeniosaintemarie.github.io"
           className="text-white hover:text-gray-300 transition-colors"
         >
           <Globe className="w-4 h-4 footer-icon" />
